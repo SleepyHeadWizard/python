@@ -11,3 +11,8 @@ def hello():
     print("hello world")
 
 hello()
+
+def bye():
+    print("Bye Frind")
+
+bye()
