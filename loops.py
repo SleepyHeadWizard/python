@@ -16,3 +16,6 @@ def bye():
     print("Bye Frind")
 
 bye()
+
+nothing to do today
+
