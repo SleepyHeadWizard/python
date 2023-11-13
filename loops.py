@@ -17,9 +17,6 @@ def bye():
 
 bye()
 
-nothing to do today
-
-today also
 +1
 
 43
