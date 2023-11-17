@@ -17,5 +17,5 @@ def bye():
 
 bye()
 
-a=5
-print=a
+
+
