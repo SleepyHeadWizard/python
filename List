@@ -1,0 +1,12 @@
+def get_even_numbers(input_list):
+    even_numbers = [num for num in input_list if num % 2 == 0]
+    return even_numbers
+
+def main():
+    numbers = [1, 2, 3, 4, 5, 6]
+    result = get_even_numbers(numbers)
+    print("Input:", numbers)
+    print("Output:", result)
+
+if __name__ == "__main__":
+    main()
