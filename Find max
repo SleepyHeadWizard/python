@@ -1,0 +1,23 @@
+def find_largest_value(input_list):
+    if not input_list:  # Check if the list is empty
+        return None
+
+    largest_value = input_list[0]  # Initialize largest_value with the first element
+
+    for num in input_list:
+        if num > largest_value:
+            largest_value = num
+
+    return largest_value
+
+def main():
+    numbers = [12, 45, 78, 23, 56, 91, 34]
+    largest = find_largest_value(numbers)
+    print("List:", numbers)
+    if largest is not None:
+        print("Largest value using loop:", largest)
+    else:
+        print("The list is empty.")
+
+if __name__ == "__main__":
+    main()
