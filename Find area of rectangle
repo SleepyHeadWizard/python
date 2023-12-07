@@ -1,0 +1,14 @@
+def calculate_rectangle_area(length, width):
+    area = length * width
+    return area
+
+def main():
+    # Example: Calculate the area of a rectangle with length 5 and width 10
+    length = 5
+    width = 10
+
+    area = calculate_rectangle_area(length, width)
+    print(f"The area of the rectangle is: {area}")
+
+if __name__ == "__main__":
+    main()
