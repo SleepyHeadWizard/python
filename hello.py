@@ -4,3 +4,4 @@
 i=5
 if i<10:
     print("i<5")
+#for loop
